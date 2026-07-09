@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Elmia Oran School — A bilingual school in Oran, Algeria offering primary, middle and secondary education with trilingual instruction (Arabic, French, English), modern labs and proven academic results.">
+<meta name="keywords" content="Elmia Oran, school Oran Algeria, bilingual school Algeria, primary school Oran, middle school Oran, secondary school Oran, best school Oran">
+<meta name="author" content="Elmia Oran School">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://elmia-oran.dz/">
+<meta property="og:title" content="Elmia Oran — Bilingual School | Primary · Middle · Secondary">
+<meta property="og:description" content="Where science meets character. A bilingual school in Oran guiding students from primary to secondary with strong academics and modern classrooms.">
+<meta property="og:image" content="https://elmia-oran.dz/assets/og-image.jpg">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="ar_DZ">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://elmia-oran.dz/">
+<meta property="twitter:title" content="Elmia Oran — Bilingual School">
+<meta property="twitter:description" content="Where science meets character. Primary · Middle · Secondary education in Oran, Algeria.">
+<meta property="twitter:image" content="https://elmia-oran.dz/assets/og-image.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://elmia-oran.dz/">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230F2340'/><text x='50' y='68' font-size='60' font-family='Arial' font-weight='bold' fill='%23fff' text-anchor='middle'>E</text></svg>">
+
+<title>Elmia Oran — Bilingual School | Primary · Middle · Secondary</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --navy:#0F2340;
+    --navy-2:#163457;
+    --navy-3:#1E4368;
+    --paper:#F5F7FA;
+    --card:#FFFFFF;
+    --teal:#22A99A;
+    --teal-dim:rgba(34,169,154,0.12);
+    --amber:#F0A93E;
+    --ink:#182233;
+    --ink-soft:#5B6B82;
+    --line:#E1E6ED;
+    --radius:14px;
+    --shadow:0 10px 30px rgba(15,35,64,0.08);
+    --shadow-hover:0 20px 40px rgba(15,35,64,0.14);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  html[lang="ar"] body{ font-family:'Tajawal',sans-serif; }
+  h1,h2,h3,.disp{ font-family:'Space Grotesk',sans-serif; letter-spacing:-0.01em; }
+  html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] .disp{ font-family:'Tajawal',sans-serif; letter-spacing:0; }
+
+  a{ color:inherit; text-decoration:none; }
+  img{ max-width:100%; display:block; }
+  .container{ max-width:1140px; margin:0 auto; padding:0 24px; }
+  section{ padding:88px 0; }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:12.5px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase;
+    color:var(--teal); margin:0 0 14px;
+  }
+  html[lang="ar"] .eyebrow{ letter-spacing:0; }
+  .eyebrow::before{ content:''; width:18px; height:2px; background:var(--teal); border-radius:2px; }
+
+  h2.section-title{ font-size:clamp(28px,4vw,40px); margin:0 0 14px; color:var(--navy); font-weight:600; }
+  p.section-lead{ font-size:16.5px; color:var(--ink-soft); max-width:620px; line-height:1.65; margin:0; }
+
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:13px 26px; border-radius:10px; font-weight:600; font-size:14.5px;
+    cursor:pointer; border:1.5px solid transparent;
+    transition:transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+  .btn:hover{ transform:translateY(-2px); }
+  .btn-primary{ background:var(--teal); color:#fff; box-shadow:0 8px 20px rgba(34,169,154,0.28); }
+  .btn-primary:hover{ box-shadow:0 12px 26px rgba(34,169,154,0.36); }
+  .btn-primary .arrow{ display:inline-block; transition:transform 0.2s ease; }
+  .btn-primary:hover .arrow{ transform:translateX(4px); }
+  html[dir="rtl"] .btn-primary:hover .arrow{ transform:translateX(-4px) scaleX(-1); }
+  html[dir="rtl"] .btn-primary .arrow{ display:inline-block; transform:scaleX(-1); }
+  .btn-ghost{ background:transparent; border-color:rgba(255,255,255,0.35); color:#fff; }
+  .btn-ghost:hover{ background:rgba(255,255,255,0.08); }
+  .btn-navy{ background:var(--navy); color:#fff; }
+  .btn-amber{ background:var(--amber); color:#fff; box-shadow:0 8px 20px rgba(240,169,62,0.28); }
+  .btn-outline{ background:transparent; border-color:var(--line); color:var(--navy); }
+  .btn-outline:hover{ background:var(--paper); }
+  .btn-sm{ padding:10px 20px; font-size:13.5px; }
+
+  /* Preloader */
+  .preloader{
+    position:fixed; inset:0; z-index:9999; background:var(--navy);
+    display:flex; align-items:center; justify-content:center;
+    transition:opacity 0.7s ease, visibility 0.7s ease;
+  }
+  .preloader.hidden{ opacity:0; visibility:hidden; pointer-events:none; }
+  .preloader-logo{
+    width:64px; height:64px; border-radius:16px;
+    background:linear-gradient(135deg, var(--teal), #1a8478);
+    display:flex; align-items:center; justify-content:center;
+    color:#fff; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:30px;
+    margin:0 auto 22px;
+    animation:preloaderPulse 1.5s ease-in-out infinite;
+  }
+  @keyframes preloaderPulse{
+    0%,100%{ transform:scale(1); box-shadow:0 0 0 0 rgba(34,169,154,0.4); }
+    50%{ transform:scale(1.05); box-shadow:0 0 0 20px rgba(34,169,154,0); }
+  }
+  .preloader-text{ font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:600; color:#fff; letter-spacing:0.04em; margin-bottom:8px; }
+  .preloader-sub{ font-size:13px; color:rgba(255,255,255,0.5); margin-bottom:28px; }
+  .preloader-bar{ width:140px; height:3px; background:rgba(255,255,255,0.1); border-radius:3px; overflow:hidden; margin:0 auto; }
+  .preloader-fill{ height:100%; width:0%; background:linear-gradient(90deg, var(--teal), #2DD4C0); border-radius:3px; animation:preloaderFill 1.5s ease-out forwards; }
+  @keyframes preloaderFill{ to{ width:100%; } }
+
+  /* Header */
+  header{ position:sticky; top:0; z-index:100; background:rgba(245,247,250,0.92); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+  .nav-wrap{ display:flex; align-items:center; justify-content:space-between; padding:16px 24px; max-width:1140px; margin:0 auto; }
+  .logo{ display:flex; align-items:center; gap:10px; }
+  .logo-mark{
+    width:38px; height:38px; background:linear-gradient(135deg, var(--navy), var(--navy-3));
+    display:flex; align-items:center; justify-content:center; color:#fff;
+    font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; flex-shrink:0;
+    clip-path:polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  }
+  .logo-text{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:var(--navy); }
+  html[lang="ar"] .logo-text{ font-family:'Tajawal',sans-serif; }
+  .logo-text span{ color:var(--teal); }
+  nav.links{ display:flex; align-items:center; gap:30px; }
+  nav.links a{ font-size:14.5px; font-weight:500; position:relative; padding:4px 0; }
+  nav.links a::after{ content:''; position:absolute; left:0; bottom:-3px; width:0; height:2px; background:var(--teal); transition:width 0.2s ease; }
+  html[dir="rtl"] nav.links a::after{ left:auto; right:0; }
+  nav.links a:hover::after, nav.links a.active::after{ width:100%; }
+  nav.links a.active{ color:var(--teal); }
+  .nav-right{ display:flex; align-items:center; gap:14px; }
+  .lang-toggle{ display:flex; border:1.5px solid var(--line); border-radius:20px; overflow:hidden; font-size:12.5px; font-weight:700; cursor:pointer; user-select:none; }
+  .lang-toggle span{ padding:7px 13px; transition:background 0.2s ease, color 0.2s ease; }
+  .lang-toggle span.active{ background:var(--navy); color:#fff; }
+  .burger{ display:none; flex-direction:column; gap:4px; cursor:pointer; background:none; border:none; padding:6px; }
+  .burger span{ width:22px; height:2px; background:var(--navy); border-radius:2px; }
+
+  /* Hero */
+  .hero{
+    position:relative; background:radial-gradient(ellipse at 80% 0%, rgba(34,169,154,0.16), transparent 55%), var(--navy); color:#fff; padding:100px 0 0; overflow:hidden;
+  }
+  .hero::before{
+    content:''; position:absolute; inset:0;
+    background-image:radial-gradient(rgba(255,255,255,0.14) 1px, transparent 1px); background-size:26px 26px;
+    -webkit-mask-image:radial-gradient(ellipse 70% 60% at 75% 20%, #000 30%, transparent 75%);
+            mask-image:radial-gradient(ellipse 70% 60% at 75% 20%, #000 30%, transparent 75%);
+    pointer-events:none;
+  }
+  .hero-grid{ display:grid; grid-template-columns:1.1fr 0.9fr; gap:40px; align-items:center; max-width:1140px; margin:0 auto; padding:0 24px 70px; }
+  .hero h1{ font-size:clamp(34px,5vw,54px); line-height:1.08; margin:0 0 20px; font-weight:700; }
+  .hero h1 .accent{ color:var(--teal); }
+  .hero p{ font-size:17px; color:rgba(255,255,255,0.78); max-width:480px; line-height:1.65; margin:0 0 30px; }
+  .hero-ctas{ display:flex; gap:14px; flex-wrap:wrap; }
+  .badge-card{
+    background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); border-radius:18px; padding:26px; backdrop-filter:blur(6px);
+  }
+  .badge-top{ display:flex; align-items:center; gap:12px; margin-bottom:18px; }
+  .badge-avatar{
+    width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg, var(--teal), #1a8478);
+    display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Space Grotesk',sans-serif;
+  }
+  .badge-name{ font-weight:600; font-size:14.5px; }
+  .badge-role{ font-size:12.5px; color:rgba(255,255,255,0.6); }
+  .badge-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .badge-item{ background:rgba(255,255,255,0.05); border-radius:10px; padding:12px 14px; }
+  .badge-item .num{ font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:var(--teal); }
+  .badge-item .lab{ font-size:11.5px; color:rgba(255,255,255,0.6); margin-top:2px; }
+  .ring-wrap{ position:relative; width:52px; height:52px; margin:0 auto 6px; }
+  .ring-wrap svg{ width:100%; height:100%; transform:rotate(-90deg); }
+  .ring-track{ fill:none; stroke:rgba(255,255,255,0.12); stroke-width:4; }
+  .ring-prog{ fill:none; stroke:var(--teal); stroke-width:4; stroke-linecap:round; transition:stroke-dashoffset 1.2s cubic-bezier(.22,.9,.3,1); }
+  .ring-label{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-size:12.5px; font-weight:700; color:#fff; }
+  .stats-bar{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid rgba(255,255,255,0.12); background:rgba(255,255,255,0.03); }
+  .stat{ text-align:center; padding:26px 10px; border-inline-start:1px solid rgba(255,255,255,0.1); }
+  .stat:first-child{ border-inline-start:none; }
+  .stat .num{ font-family:'Space Grotesk',sans-serif; font-size:clamp(22px,3vw,32px); font-weight:700; color:#fff; }
+  .stat .lab{ font-size:12.5px; color:rgba(255,255,255,0.62); margin-top:4px; letter-spacing:0.02em; }
+  .hero-divider{ height:28px; background:var(--navy); position:relative; overflow:hidden; }
+  .hero-divider svg{ position:absolute; bottom:0; width:100%; height:100%; fill:var(--paper); }
+
+  /* Pillars */
+  .pillars{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+  .pillar{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px; transition:transform 0.2s ease, box-shadow 0.25s ease; will-change:transform; }
+  .pillar:hover{ box-shadow:var(--shadow-hover); transform:translateY(-4px); }
+  .pillar-icon{ width:46px; height:46px; border-radius:12px; background:var(--teal-dim); display:flex; align-items:center; justify-content:center; margin-bottom:16px; }
+  .pillar-icon svg{ width:22px; height:22px; stroke:var(--teal); fill:none; stroke-width:1.6; }
+  .pillar h3{ font-size:17.5px; margin:0 0 8px; color:var(--navy); }
+  .pillar p{ font-size:14.5px; color:var(--ink-soft); line-height:1.6; margin:0; }
+
+  /* Programs */
+  .programs{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+  .program-card{ border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); background:var(--card); transition:transform 0.2s ease, box-shadow 0.25s ease; will-change:transform; }
+  .program-card:hover{ box-shadow:var(--shadow-hover); transform:translateY(-4px); }
+  .program-top{ padding:22px 24px; color:#fff; }
+  .program-card:nth-child(1) .program-top{ background:linear-gradient(135deg,#1E4368,#163457); }
+  .program-card:nth-child(2) .program-top{ background:linear-gradient(135deg,#22A99A,#1a8478); }
+  .program-card:nth-child(3) .program-top{ background:linear-gradient(135deg,#0F2340,#1E4368); }
+  .program-top .grade{ font-size:12px; text-transform:uppercase; letter-spacing:0.12em; opacity:0.75; }
+  .program-top h3{ margin:6px 0 0; font-size:20px; }
+  .program-body{ padding:22px 24px; }
+  .program-body ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; }
+  .program-body li{ font-size:14px; color:var(--ink-soft); display:flex; align-items:center; gap:9px; }
+  .program-body li::before{ content:''; width:6px; height:6px; border-radius:50%; background:var(--teal); flex-shrink:0; }
+  .program-footer{ padding:16px 24px; border-top:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; }
+  .program-price{ font-size:13px; color:var(--ink-soft); }
+  .program-price strong{ color:var(--navy); font-size:15px; }
+
+  /* Features */
+  .features{ display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:44px; }
+  .feature{ text-align:center; padding:26px 16px; }
+  .feature-icon{ width:52px; height:52px; margin:0 auto 14px; border-radius:50%; background:var(--card); border:1.5px solid var(--line); display:flex; align-items:center; justify-content:center; }
+  .feature-icon svg{ width:24px; height:24px; stroke:var(--navy); fill:none; stroke-width:1.6; }
+  .feature h3{ font-size:15px; margin:0 0 6px; color:var(--navy); }
+  .feature p{ font-size:13.5px; color:var(--ink-soft); line-height:1.55; margin:0; }
+
+  /* Gallery */
+  .gallery-grid{ display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:180px; gap:14px; margin-top:44px; }
+  .gallery-item{ border-radius:12px; overflow:hidden; position:relative; background:var(--navy); }
+  .gallery-item img{ width:100%; height:100%; object-fit:cover; opacity:0.9; transition:transform 0.4s ease, opacity 0.3s ease; }
+  .gallery-item:hover img{ transform:scale(1.05); opacity:1; }
+  .gallery-item .gallery-caption{ position:absolute; bottom:0; inset-inline:0; padding:14px; background:linear-gradient(to top, rgba(15,35,64,0.9), transparent); color:#fff; font-size:13px; font-weight:600; opacity:0; transition:opacity 0.3s ease; }
+  .gallery-item:hover .gallery-caption{ opacity:1; }
+  .gallery-item:nth-child(1){ grid-column:span 2; grid-row:span 2; }
+  .gallery-item:nth-child(4){ grid-column:span 2; }
+  .gallery-placeholder{ width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.5); font-size:13px; flex-direction:column; gap:8px; }
+  .gallery-placeholder svg{ width:32px; height:32px; stroke:rgba(255,255,255,0.4); fill:none; stroke-width:1.5; }
+
+  /* Life tiles */
+  .life-grid{ display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:130px; gap:14px; margin-top:44px; }
+  .life-tile{ border-radius:12px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; color:#fff; font-size:13.5px; font-weight:600; position:relative; overflow:hidden; }
+  .life-tile svg{ width:26px; height:26px; stroke:#fff; fill:none; stroke-width:1.6; opacity:0.9; }
+  .life-tile:nth-child(1){ background:linear-gradient(135deg,#22A99A,#166a61); grid-column:span 2; grid-row:span 2; }
+  .life-tile:nth-child(2){ background:linear-gradient(135deg,#1E4368,#0F2340); }
+  .life-tile:nth-child(3){ background:linear-gradient(135deg,#F0A93E,#c8821e); }
+  .life-tile:nth-child(4){ background:linear-gradient(135deg,#163457,#22A99A); }
+  .life-tile:nth-child(5){ background:linear-gradient(135deg,#0F2340,#1E4368); grid-column:span 2; }
+
+  /* Team */
+  .team-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:22px; margin-top:44px; }
+  .team-card{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; text-align:center; transition:transform 0.2s ease, box-shadow 0.25s ease; }
+  .team-card:hover{ box-shadow:var(--shadow-hover); transform:translateY(-4px); }
+  .team-photo{ width:100%; height:220px; background:linear-gradient(135deg, var(--navy-3), var(--navy)); display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.5); font-size:13px; position:relative; }
+  .team-photo svg{ width:40px; height:40px; stroke:rgba(255,255,255,0.3); fill:none; stroke-width:1.5; }
+  .team-info{ padding:20px; }
+  .team-name{ font-size:15px; font-weight:700; color:var(--navy); margin-bottom:4px; }
+  .team-role{ font-size:13px; color:var(--teal); font-weight:600; margin-bottom:8px; }
+  .team-bio{ font-size:13px; color:var(--ink-soft); line-height:1.5; }
+
+  /* Testimonials */
+  .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+  .testi{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:26px; }
+  .testi .quote-mark{ font-family:'Space Grotesk',sans-serif; font-size:38px; color:var(--teal); line-height:1; margin-bottom:6px; }
+  .testi p{ font-size:14.5px; color:var(--ink-soft); line-height:1.65; margin:0 0 18px; }
+  .testi-person{ display:flex; align-items:center; gap:10px; }
+  .testi-avatar{ width:38px; height:38px; border-radius:50%; background:var(--navy); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; font-family:'Space Grotesk',sans-serif; }
+  .testi-name{ font-size:13.5px; font-weight:600; color:var(--navy); }
+  .testi-role{ font-size:12px; color:var(--ink-soft); }
+
+  /* Admissions Timeline */
+  .timeline{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin-top:50px; position:relative; }
+  .timeline::before{ content:''; position:absolute; top:22px; left:10%; right:10%; height:2px; background:var(--line); z-index:0; }
+  .tl-step{ position:relative; z-index:1; text-align:center; }
+  .tl-num{ width:44px; height:44px; border-radius:50%; background:var(--navy); color:#fff; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:700; margin:0 auto 16px; }
+  .tl-step h3{ font-size:15px; margin:0 0 6px; color:var(--navy); }
+  .tl-step p{ font-size:13.5px; color:var(--ink-soft); margin:0; line-height:1.5; }
+
+  /* Fees */
+  .fees-table{ width:100%; border-collapse:collapse; margin-top:44px; background:var(--card); border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); }
+  .fees-table th, .fees-table td{ padding:16px 20px; text-align:left; border-bottom:1px solid var(--line); font-size:14.5px; }
+  html[dir="rtl"] .fees-table th, html[dir="rtl"] .fees-table td{ text-align:right; }
+  .fees-table th{ background:var(--navy); color:#fff; font-weight:600; font-family:'Space Grotesk',sans-serif; }
+  .fees-table tr:last-child td{ border-bottom:none; }
+  .fees-table td{ color:var(--ink-soft); }
+  .fees-table .fee{ font-weight:700; color:var(--navy); font-family:'Space Grotesk',sans-serif; }
+  .fees-note{ margin-top:14px; font-size:13px; color:var(--ink-soft); }
+
+  /* Events */
+  .events-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:44px; }
+  .event-card{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; transition:transform 0.2s ease, box-shadow 0.25s ease; }
+  .event-card:hover{ box-shadow:var(--shadow-hover); transform:translateY(-4px); }
+  .event-date{ background:var(--teal); color:#fff; padding:12px 16px; display:flex; align-items:center; gap:10px; font-weight:700; font-size:13px; }
+  .event-date svg{ width:16px; height:16px; stroke:#fff; fill:none; stroke-width:2; }
+  .event-body{ padding:20px; }
+  .event-title{ font-size:16px; font-weight:700; color:var(--navy); margin-bottom:8px; }
+  .event-desc{ font-size:13.5px; color:var(--ink-soft); line-height:1.6; margin-bottom:14px; }
+  .event-meta{ font-size:12px; color:var(--ink-soft); display:flex; align-items:center; gap:6px; }
+  .event-meta svg{ width:14px; height:14px; stroke:var(--ink-soft); fill:none; stroke-width:2; }
+
+  /* Contact */
+  .contact-wrap{ display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:44px; align-items:start; }
+  .contact-info{ display:flex; flex-direction:column; gap:20px; }
+  .info-row{ display:flex; align-items:flex-start; gap:14px; }
+  .info-icon{ width:38px; height:38px; border-radius:10px; background:var(--teal-dim); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .info-icon svg{ width:18px; height:18px; stroke:var(--teal); fill:none; stroke-width:1.6; }
+  .info-row .lbl{ font-size:12.5px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-soft); margin:0 0 3px; }
+  .info-row .val{ font-size:14.5px; color:var(--navy); font-weight:600; }
+  .social-links{ display:flex; gap:10px; margin-top:10px; }
+  .social-btn{ width:40px; height:40px; border-radius:10px; border:1.5px solid var(--line); display:flex; align-items:center; justify-content:center; transition:all 0.2s ease; background:var(--card); }
+  .social-btn:hover{ background:var(--navy); border-color:var(--navy); }
+  .social-btn:hover svg{ stroke:#fff; }
+  .social-btn svg{ width:18px; height:18px; stroke:var(--navy); fill:none; stroke-width:1.8; }
+  .map-wrap{ width:100%; height:260px; border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); margin-top:10px; background:var(--line); }
+  .map-wrap iframe{ width:100%; height:100%; border:0; filter:grayscale(0.3); }
+
+  form.contact-form{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px; }
+  .form-row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+  .form-field{ display:flex; flex-direction:column; gap:6px; }
+  .form-field.full{ grid-column:1 / -1; }
+  .form-field label{ font-size:12.5px; font-weight:600; color:var(--navy); }
+  .form-field input, .form-field select, .form-field textarea{
+    border:1.5px solid var(--line); border-radius:9px; padding:11px 13px; font-family:inherit; font-size:14px;
+    background:var(--paper); color:var(--ink); resize:vertical; transition:border-color 0.2s ease;
+  }
+  .form-field input:focus, .form-field select:focus, .form-field textarea:focus{ outline:2px solid var(--teal); outline-offset:1px; border-color:transparent; }
+  .form-msg{ font-size:13.5px; color:var(--teal); font-weight:600; margin-top:12px; display:none; }
+  .form-msg.show{ display:block; }
+  .form-msg.error{ color:#e74c3c; }
+
+  /* WhatsApp Float */
+  .wa-float{
+    position:fixed; left:24px; bottom:24px; z-index:90;
+    width:54px; height:54px; border-radius:50%; background:#25D366; color:#fff;
+    display:flex; align-items:center; justify-content:center; box-shadow:0 6px 20px rgba(37,211,102,0.4);
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  html[dir="rtl"] .wa-float{ left:auto; right:24px; }
+  .wa-float:hover{ transform:scale(1.08); box-shadow:0 8px 26px rgba(37,211,102,0.5); }
+  .wa-float svg{ width:28px; height:28px; fill:#fff; }
+
+  /* Back to top */
+  .to-top{
+    position:fixed; right:24px; bottom:24px; z-index:90;
+    width:44px; height:44px; border-radius:50%; background:var(--navy); color:#fff; border:none; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(15,35,64,0.28);
+    opacity:0; pointer-events:none; transform:translateY(10px); transition:opacity 0.25s ease, transform 0.25s ease;
+  }
+  html[dir="rtl"] .to-top{ right:auto; left:24px; }
+  .to-top.show{ opacity:1; pointer-events:auto; transform:translateY(0); }
+  .to-top svg{ width:18px; height:18px; stroke:#fff; fill:none; stroke-width:2; }
+
+  /* Footer */
+  footer{ background:var(--navy); color:rgba(255,255,255,0.75); padding:56px 0 26px; margin-top:40px; }
+  .foot-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px; }
+  .foot-brand .logo-text{ color:#fff; }
+  .foot-brand p{ font-size:13.5px; color:rgba(255,255,255,0.55); line-height:1.6; margin:14px 0 0; max-width:260px; }
+  .foot-col h4{ font-size:13px; text-transform:uppercase; letter-spacing:0.1em; color:rgba(255,255,255,0.5); margin:0 0 14px; }
+  .foot-col a{ display:block; font-size:14px; color:rgba(255,255,255,0.78); margin-bottom:10px; transition:color 0.2s ease; }
+  .foot-col a:hover{ color:var(--teal); }
+  .foot-social{ display:flex; gap:10px; margin-top:14px; }
+  .foot-social a{ width:36px; height:36px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); display:flex; align-items:center; justify-content:center; transition:all 0.2s ease; }
+  .foot-social a:hover{ background:var(--teal); border-color:var(--teal); }
+  .foot-social a svg{ width:16px; height:16px; fill:rgba(255,255,255,0.7); }
+  .foot-social a:hover svg{ fill:#fff; }
+  .foot-bottom{
+    border-top:1px solid rgba(255,255,255,0.12); margin-top:40px; padding-top:20px;
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:12.5px; color:rgba(255,255,255,0.5);
+  }
+
+  /* Reveal */
+  .reveal{ opacity:0; transform:translateY(20px); transition:opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible{ opacity:1; transform:translateY(0); }
+
+  /* Responsive */
+  @media (max-width:920px){
+    .hero-grid{ grid-template-columns:1fr; }
+    .pillars, .programs, .team-grid, .events-grid{ grid-template-columns:1fr; }
+    .features{ grid-template-columns:repeat(2,1fr); }
+    .life-grid{ grid-template-columns:repeat(2,1fr); }
+    .life-tile:nth-child(1){ grid-column:span 2; }
+    .life-tile:nth-child(5){ grid-column:span 2; }
+    .gallery-grid{ grid-template-columns:repeat(2,1fr); }
+    .gallery-item:nth-child(1){ grid-column:span 2; grid-row:span 1; }
+    .gallery-item:nth-child(4){ grid-column:span 1; }
+    .testi-grid{ grid-template-columns:1fr; }
+    .timeline{ grid-template-columns:1fr 1fr; row-gap:34px; }
+    .timeline::before{ display:none; }
+    .contact-wrap{ grid-template-columns:1fr; }
+    .foot-grid{ grid-template-columns:1fr 1fr; }
+    .wa-float{ width:48px; height:48px; }
+    .wa-float svg{ width:24px; height:24px; }
+  }
+  @media (max-width:680px){
+    nav.links{ display:none; }
+    .burger{ display:flex; }
+    .stats-bar{ grid-template-columns:repeat(2,1fr); }
+    .stat:nth-child(3){ border-inline-start:none; }
+    .form-row{ grid-template-columns:1fr; }
+    .foot-grid{ grid-template-columns:1fr; }
+    .gallery-grid{ grid-template-columns:1fr; }
+    .gallery-item:nth-child(1){ grid-column:span 1; }
+    .fees-table th, .fees-table td{ padding:12px 14px; font-size:13px; }
+  }
+  nav.links.mobile-open{
+    display:flex; flex-direction:column; position:absolute; top:100%; inset-inline:0;
+    background:var(--paper); border-bottom:1px solid var(--line); padding:14px 24px 20px; gap:16px;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation:none !important; transition:none !important; }
+    .reveal{ opacity:1; transform:none; }
+    .preloader{ display:none !important; }
+  }
+</style>
+
+<!-- Schema.org Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "School",
+  "name": "Elmia Oran School",
+  "alternateName": "École Elmia Oran",
+  "description": "A bilingual school in Oran, Algeria offering primary, middle and secondary education with trilingual instruction.",
+  "url": "https://elmia-oran.dz",
+  "logo": "https://elmia-oran.dz/assets/logo.png",
+  "image": "https://elmia-oran.dz/assets/og-image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "02 Frih Ibrahim Street, Sananas",
+    "addressLocality": "Oran",
+    "addressCountry": "DZ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "35.7045",
+    "longitude": "-0.6411"
+  },
+  "telephone": "+213-41-000-000",
+  "email": "contact@elmia-oran.dz",
+  "foundingDate": "2007",
+  "sameAs": [
+    "https://facebook.com/elmiaoran",
+    "https://instagram.com/elmiaoran"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "opens": "08:00",
+    "closes": "16:00"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo">E</div>
+    <div class="preloader-text">Elmia Oran</div>
+    <div class="preloader-sub">Loading experience...</div>
+    <div class="preloader-bar"><div class="preloader-fill"></div></div>
+  </div>
+</div>
+
+<!-- Header -->
+<header>
+  <div class="nav-wrap">
+    <a href="#home" class="logo">
+      <div class="logo-mark">E</div>
+      <div class="logo-text" data-en="Elmia <span>Oran</span>" data-fr="Elmia <span>Oran</span>" data-ar="العلمية <span>وهران</span>">Elmia <span>Oran</span></div>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#about" data-en="About" data-fr="À propos" data-ar="من نحن">About</a>
+      <a href="#programs" data-en="Programs" data-fr="Programmes" data-ar="المراحل الدراسية">Programs</a>
+      <a href="#team" data-en="Our Team" data-fr="Notre Équipe" data-ar="طاقمنا">Our Team</a>
+      <a href="#life" data-en="School Life" data-fr="Vie scolaire" data-ar="الحياة المدرسية">School Life</a>
+      <a href="#fees" data-en="Fees" data-fr="Tarifs" data-ar="الرسوم">Fees</a>
+      <a href="#admissions" data-en="Admissions" data-fr="Admissions" data-ar="التسجيل">Admissions</a>
+      <a href="#contact" data-en="Contact" data-fr="Contact" data-ar="اتصل بنا">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-toggle" id="langToggle">
+        <span data-lang="en" class="active">EN</span>
+        <span data-lang="fr">FR</span>
+        <span data-lang="ar">عربي</span>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow" data-en="Elmia Oran School" data-fr="École Elmia Oran" data-ar="مدرسة العلمية وهران">Elmia Oran School</p>
+      <h1 data-en='Where science meets <span class="accent">character</span>' data-fr="Où la science rencontre <span class=&quot;accent&quot;>le caractère</span>" data-ar='أين يلتقي العلم <span class="accent">بالأخلاق</span>'>Where science meets <span class="accent">character</span></h1>
+      <p data-en="A bilingual school in Oran guiding students from primary to secondary school with strong academics, modern classrooms, and real personal attention." data-fr="Une école bilingue à Oran qui accompagne les élèves du primaire au secondaire, avec un niveau académique solide, des classes modernes et un vrai suivi individuel." data-ar="مدرسة ثنائية اللغة في وهران ترافق التلاميذ من الابتدائي إلى الثانوي بمستوى أكاديمي قوي، أقسام عصرية، ومتابعة فردية حقيقية.">A bilingual school in Oran guiding students from primary to secondary school with strong academics, modern classrooms, and real personal attention.</p>
+      <div class="hero-ctas">
+        <a href="#admissions" class="btn btn-primary"><span data-en="Apply for Enrollment" data-fr="Faire une demande d'inscription" data-ar="قدّم طلب التسجيل">Apply for Enrollment</span><span class="arrow">&nbsp;→</span></a>
+        <a href="#about" class="btn btn-ghost" data-en="Discover Elmia" data-fr="Découvrir Elmia" data-ar="اكتشف العلمية">Discover Elmia</a>
+        <a href="#prospectus" class="btn btn-amber btn-sm" data-en="Download Prospectus" data-fr="Télécharger la brochure" data-ar="حمّل البروشور">Download Prospectus</a>
+      </div>
+    </div>
+    <div class="badge-card">
+      <div class="badge-top">
+        <div class="badge-avatar">E</div>
+        <div>
+          <div class="badge-name" data-en="Elmia Oran" data-fr="Elmia Oran" data-ar="العلمية وهران">Elmia Oran</div>
+          <div class="badge-role" data-en="Primary · Middle · Secondary" data-fr="Primaire · Collège · Lycée" data-ar="ابتدائي · متوسط · ثانوي">Primary · Middle · Secondary</div>
+        </div>
+      </div>
+      <div class="badge-grid">
+        <div class="badge-item"><div class="num" data-count="2007">0</div><div class="lab" data-en="Founded" data-fr="Fondée en" data-ar="التأسيس">Founded</div></div>
+        <div class="badge-item" style="text-align:center;">
+          <div class="ring-wrap">
+            <svg viewBox="0 0 52 52">
+              <circle class="ring-track" cx="26" cy="26" r="22"/>
+              <circle class="ring-prog" cx="26" cy="26" r="22" data-ring="94" stroke-dasharray="138.2" stroke-dashoffset="138.2"/>
+            </svg>
+            <div class="ring-label">94%</div>
+          </div>
+          <div class="lab" data-en="Exam success" data-fr="Réussite aux examens" data-ar="نسبة النجاح">Exam success</div>
+        </div>
+        <div class="badge-item"><div class="num" data-count="24">0</div><div class="lab" data-en="Teachers" data-fr="Enseignants" data-ar="أستاذ">Teachers</div></div>
+        <div class="badge-item"><div class="num"><span data-count="16">0</span>:1</div><div class="lab" data-en="Student ratio" data-fr="Ratio d'encadrement" data-ar="نسبة التأطير">Student ratio</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="stats-bar">
+    <div class="stat"><div class="num"><span data-count="750">0</span>+</div><div class="lab" data-en="Students" data-fr="Élèves" data-ar="تلميذ">Students</div></div>
+    <div class="stat"><div class="num"><span data-count="19">0</span></div><div class="lab" data-en="Years of experience" data-fr="Années d'expérience" data-ar="سنة خبرة">Years of experience</div></div>
+    <div class="stat"><div class="num"><span data-count="20">0</span>+</div><div class="lab" data-en="Modern classrooms" data-fr="Salles modernes" data-ar="قسم عصري">Modern classrooms</div></div>
+    <div class="stat"><div class="num"><span data-count="6">0</span></div><div class="lab" data-en="Science &amp; tech labs" data-fr="Laboratoires scientifiques" data-ar="مخبر علمي وتقني">Science &amp; tech labs</div></div>
+  </div>
+</section>
+
+<div class="hero-divider">
+  <svg viewBox="0 0 1200 28" preserveAspectRatio="none"><polygon points="0,28 1200,0 1200,28"/></svg>
+</div>
+
+<!-- About -->
+<section id="about">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="About Elmia" data-fr="À propos d'Elmia" data-ar="عن العلمية">About Elmia</p>
+    <h2 class="section-title" data-en="Built on three pillars" data-fr="Bâtie sur trois piliers" data-ar="مبنية على ثلاث ركائز">Built on three pillars</h2>
+    <p class="section-lead" data-en="Elmia Oran combines a demanding academic program with genuine care for every student's growth — in mind, values, and confidence." data-fr="L'école Elmia Oran allie un programme académique exigeant à une attention réelle portée à la croissance de chaque élève, sur le plan intellectuel, moral et personnel." data-ar="تجمع مدرسة العلمية وهران بين برنامج أكاديمي قوي واهتمام حقيقي بنمو كل تلميذ، فكريًا وأخلاقيًا ومعنويًا.">Elmia Oran combines a demanding academic program with genuine care for every student's growth — in mind, values, and confidence.</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3 L12 21 M3 12 L21 12"/></svg></div>
+        <h3 data-en="Academic Excellence" data-fr="Excellence académique" data-ar="التميز الأكاديمي">Academic Excellence</h3>
+        <p data-en="A rigorous curriculum in sciences, languages and mathematics, taught by qualified, experienced teachers." data-fr="Un programme rigoureux en sciences, langues et mathématiques, enseigné par des professeurs qualifiés et expérimentés." data-ar="منهج دراسي متين في العلوم واللغات والرياضيات، يشرف عليه أساتذة أكفاء وذوو خبرة.">A rigorous curriculum in sciences, languages and mathematics, taught by qualified, experienced teachers.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon"><svg viewBox="0 0 24 24"><path d="M12 21 C7 17 4 13 4 9 A5 5 0 0 1 12 5.5 A5 5 0 0 1 20 9 C20 13 17 17 12 21 Z"/></svg></div>
+        <h3 data-en="Character Building" data-fr="Construction du caractère" data-ar="بناء الشخصية">Character Building</h3>
+        <p data-en="Daily values of respect, discipline and responsibility woven into school life, not just a subject on a timetable." data-fr="Des valeurs quotidiennes de respect, de discipline et de responsabilité intégrées à la vie scolaire, pas seulement une matière à l'emploi du temps." data-ar="قيم يومية كالاحترام والانضباط والمسؤولية مغروسة في الحياة المدرسية، وليست مجرد مادة في الجدول.">Daily values of respect, discipline and responsibility woven into school life, not just a subject on a timetable.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar-icon"><svg viewBox="0 0 24 24"><path d="M4 19 L4 9 L12 4 L20 9 L20 19 Z"/><path d="M9 19 L9 13 L15 13 L15 19"/></svg></div>
+        <h3 data-en="Innovation &amp; Technology" data-fr="Innovation et Technologie" data-ar="الابتكار والتكنولوجيا">Innovation &amp; Technology</h3>
+        <p data-en="Smart classrooms, science labs and coding workshops that prepare students for tomorrow, not just the exam." data-fr="Des classes intelligentes, des laboratoires scientifiques et des ateliers de programmation qui préparent les élèves pour l'avenir, pas seulement pour l'examen." data-ar="أقسام ذكية ومخابر علمية وورشات برمجة تُهيئ التلميذ لمستقبله، لا للامتحان فقط.">Smart classrooms, science labs and coding workshops that prepare students for tomorrow, not just the exam.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Programs -->
+<section id="programs" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Programs" data-fr="Programmes" data-ar="المراحل الدراسية">Programs</p>
+    <h2 class="section-title" data-en="A clear path, stage by stage" data-fr="Un parcours clair, étape par étape" data-ar="مسار واضح، مرحلة بمرحلة">A clear path, stage by stage</h2>
+    <p class="section-lead" data-en="From first letters to the baccalaureate, every stage has its own focus, teaching team and pace." data-fr="Des premières lettres au baccalauréat, chaque étape a son propre objectif, son équipe pédagogique et son rythme." data-ar="من الحروف الأولى إلى شهادة البكالوريا، لكل مرحلة تركيزها الخاص وطاقمها التربوي ووتيرتها.">From first letters to the baccalaureate, every stage has its own focus, teaching team and pace.</p>
+
+    <div class="programs">
+      <div class="program-card">
+        <div class="program-top">
+          <div class="grade" data-en="Ages 6–10" data-fr="6 à 10 ans" data-ar="من 6 إلى 10 سنوات">Ages 6–10</div>
+          <h3 data-en="Primary School" data-fr="École primaire" data-ar="التعليم الابتدائي">Primary School</h3>
+        </div>
+        <div class="program-body">
+          <ul>
+            <li data-en="Arabic, French &amp; English foundations" data-fr="Bases en arabe, français et anglais" data-ar="أسس اللغة العربية والفرنسية والإنجليزية">Arabic, French &amp; English foundations</li>
+            <li data-en="Reading, writing &amp; early mathematics" data-fr="Lecture, écriture et mathématiques de base" data-ar="القراءة والكتابة والرياضيات الأولية">Reading, writing &amp; early mathematics</li>
+            <li data-en="Discovery science &amp; arts workshops" data-fr="Ateliers de découverte scientifique et artistique" data-ar="ورشات اكتشاف علمية وفنية">Discovery science &amp; arts workshops</li>
+          </ul>
+        </div>
+        <div class="program-footer">
+          <span class="program-price" data-en="Annual fee from <strong>45,000 DZD</strong>" data-fr="Frais annuels à partir de <strong>45 000 DZD</strong>" data-ar="الرسوم السنوية تبدأ من <strong>45,000 د.ج</strong>">Annual fee from <strong>45,000 DZD</strong></span>
+          <a href="#contact" class="btn btn-sm btn-outline" data-en="Details" data-fr="Détails" data-ar="التفاصيل">Details</a>
+        </div>
+      </div>
+      <div class="program-card">
+        <div class="program-top">
+          <div class="grade" data-en="Ages 11–14" data-fr="11 à 14 ans" data-ar="من 11 إلى 14 سنة">Ages 11–14</div>
+          <h3 data-en="Middle School" data-fr="Collège" data-ar="التعليم المتوسط">Middle School</h3>
+        </div>
+        <div class="program-body">
+          <ul>
+            <li data-en="Core sciences: math, physics, biology" data-fr="Matières scientifiques clés : maths, physique, sciences naturelles" data-ar="مواد علمية أساسية: رياضيات، فيزياء، علوم">Core sciences: math, physics, biology</li>
+            <li data-en="Strengthened trilingual program" data-fr="Programme trilingue renforcé" data-ar="برنامج ثلاثي اللغة معزز">Strengthened trilingual program</li>
+            <li data-en="Study skills &amp; exam preparation" data-fr="Méthodologie de travail et préparation aux examens" data-ar="مهارات المنهجية والتحضير للامتحانات">Study skills &amp; exam preparation</li>
+          </ul>
+        </div>
+        <div class="program-footer">
+          <span class="program-price" data-en="Annual fee from <strong>52,000 DZD</strong>" data-fr="Frais annuels à partir de <strong>52 000 DZD</strong>" data-ar="الرسوم السنوية تبدأ من <strong>52,000 د.ج</strong>">Annual fee from <strong>52,000 DZD</strong></span>
+          <a href="#contact" class="btn btn-sm btn-outline" data-en="Details" data-fr="Détails" data-ar="التفاصيل">Details</a>
+        </div>
+      </div>
+      <div class="program-card">
+        <div class="program-top">
+          <div class="grade" data-en="Ages 15–18" data-fr="15 à 18 ans" data-ar="من 15 إلى 18 سنة">Ages 15–18</div>
+          <h3 data-en="Secondary School" data-fr="Lycée" data-ar="التعليم الثانوي">Secondary School</h3>
+        </div>
+        <div class="program-body">
+          <ul>
+            <li data-en="Science, literature &amp; language streams" data-fr="Filières scientifiques, littéraires et linguistiques" data-ar="شعب علمية وأدبية ولغات">Science, literature &amp; language streams</li>
+            <li data-en="Intensive baccalaureate preparation" data-fr="Préparation intensive au baccalauréat" data-ar="تحضير مكثف لشهادة البكالوريا">Intensive baccalaureate preparation</li>
+            <li data-en="University &amp; career guidance" data-fr="Orientation universitaire et professionnelle" data-ar="التوجيه الجامعي والمهني">University &amp; career guidance</li>
+          </ul>
+        </div>
+        <div class="program-footer">
+          <span class="program-price" data-en="Annual fee from <strong>58,000 DZD</strong>" data-fr="Frais annuels à partir de <strong>58 000 DZD</strong>" data-ar="الرسوم السنوية تبدأ من <strong>58,000 د.ج</strong>">Annual fee from <strong>58,000 DZD</strong></span>
+          <a href="#contact" class="btn btn-sm btn-outline" data-en="Details" data-fr="Détails" data-ar="التفاصيل">Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Elmia -->
+<section>
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Why Elmia" data-fr="Pourquoi Elmia" data-ar="لماذا العلمية">Why Elmia</p>
+    <h2 class="section-title" data-en="What sets our school apart" data-fr="Ce qui distingue notre école" data-ar="ما الذي يميز مدرستنا">What sets our school apart</h2>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 6 H20 M4 12 H20 M4 18 H14"/></svg></div>
+        <h3 data-en="Trilingual Education" data-fr="Éducation trilingue" data-ar="تعليم ثلاثي اللغة">Trilingual Education</h3>
+        <p data-en="Arabic, French and English taught from an early age." data-fr="Arabe, français et anglais enseignés dès le plus jeune âge." data-ar="تدريس اللغة العربية والفرنسية والإنجليزية منذ الصغر.">Arabic, French and English taught from an early age.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20 C3 15 6 13 9 13 C12 13 15 15 15 20"/><path d="M15 20 C15 16.5 16.5 15 19 15 C21 15 21.5 17 21.5 19"/></svg></div>
+        <h3 data-en="Small Class Sizes" data-fr="Effectifs réduits" data-ar="أقسام محدودة العدد">Small Class Sizes</h3>
+        <p data-en="Low student-teacher ratio for real, individual follow-up." data-fr="Un faible ratio élèves-enseignant pour un suivi individuel réel." data-ar="نسبة تأطير منخفضة لمتابعة فردية حقيقية.">Low student-teacher ratio for real, individual follow-up.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M9 20 H15 M12 16 V20"/></svg></div>
+        <h3 data-en="Modern Classrooms" data-fr="Salles modernes" data-ar="أقسام عصرية">Modern Classrooms</h3>
+        <p data-en="Interactive boards and connected learning tools." data-fr="Tableaux interactifs et outils pédagogiques connectés." data-ar="سبورات تفاعلية وأدوات تعليمية متصلة.">Interactive boards and connected learning tools.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 2 L15 9 L22 10 L17 15 L18 22 L12 18.5 L6 22 L7 15 L2 10 L9 9 Z"/></svg></div>
+        <h3 data-en="Proven Results" data-fr="Résultats prouvés" data-ar="نتائج مثبتة">Proven Results</h3>
+        <p data-en="Consistently strong pass rates at national exams." data-fr="Des taux de réussite constamment élevés aux examens nationaux." data-ar="نسب نجاح مرتفعة باستمرار في الامتحانات الرسمية.">Consistently strong pass rates at national exams.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Campus" data-fr="Campus" data-ar="الحرم المدرسي">Campus</p>
+    <h2 class="section-title" data-en="See our school in action" data-fr="Découvrez notre école en images" data-ar="شاهد مدرستنا على أرض الواقع">See our school in action</h2>
+    <p class="section-lead" data-en="Real spaces where real learning happens. Replace these placeholders with your actual photos." data-fr="Des espaces réels où l'apprentissage réel se produit. Remplacez ces espaces réservés par vos vraies photos." data-ar="فضاءات حقيقية يحدث فيها التعلم الفعلي. استبدل هذه العناصر النائبة بصوركم الفعلية.">Real spaces where real learning happens. Replace these placeholders with your actual photos.</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+          <span data-en="Replace with school photo" data-fr="Remplacer par une photo" data-ar="استبدل بصورة المدرسة">Replace with school photo</span>
+        </div>
+        <div class="gallery-caption" data-en="Main Entrance" data-fr="Entrée principale" data-ar="المدخل الرئيسي">Main Entrance</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Science Lab" data-fr="Labo de sciences" data-ar="المخبر العلمي">Science Lab</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Classroom" data-fr="Salle de classe" data-ar="القسم">Classroom</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Sports Field" data-fr="Terrain de sport" data-ar="الملعب الرياضي">Sports Field</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Computer Lab" data-fr="Salle informatique" data-ar="قاعة الإعلام الآلي">Computer Lab</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Library" data-fr="Bibliothèque" data-ar="المكتبة">Library</div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15 L16 10 L5 21"/></svg>
+        </div>
+        <div class="gallery-caption" data-en="Art Studio" data-fr="Atelier d'art" data-ar="ورشة الفنون">Art Studio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section id="team">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Our Team" data-fr="Notre Équipe" data-ar="طاقمنا">Our Team</p>
+    <h2 class="section-title" data-en="Meet the people behind Elmia" data-fr="Rencontrez l'équipe d'Elmia" data-ar="تعرف على فريق العلمية">Meet the people behind Elmia</h2>
+    <p class="section-lead" data-en="Experienced educators and administrators dedicated to your child's growth. Replace with real photos and names." data-fr="Des éducateurs et administrateurs expérimentés dédiés à la croissance de votre enfant. Remplacez par de vraies photos et noms." data-ar="مربون وإداريون ذوو خبرة مكرسون لنمو طفلكم. استبدلوا بالصور والأسماء الحقيقية.">Experienced educators and administrators dedicated to your child's growth. Replace with real photos and names.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-photo">
+          <svg viewBox="0 0 24 24"><path d="M20 21 V19 A4 4 0 0 0 16 15 H8 A4 4 0 0 0 4 19 V21"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="team-info">
+          <div class="team-name" data-en="Dr. Amine B." data-fr="Dr Amine B." data-ar="د. أمين ب.">Dr. Amine B.</div>
+          <div class="team-role" data-en="School Director" data-fr="Directeur de l'école" data-ar="مدير المدرسة">School Director</div>
+          <div class="team-bio" data-en="15+ years in educational leadership. PhD in Educational Sciences." data-fr="15+ ans en direction éducative. Doctorat en sciences de l'éducation." data-ar="أكثر من 15 سنة في الإدارة التربوية. دكتوراه في علوم التربية.">15+ years in educational leadership. PhD in Educational Sciences.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <svg viewBox="0 0 24 24"><path d="M20 21 V19 A4 4 0 0 0 16 15 H8 A4 4 0 0 0 4 19 V21"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="team-info">
+          <div class="team-name" data-en="Mrs. Sarah K." data-fr="Mme Sarah K." data-ar="الأستاذة سارة ك.">Mrs. Sarah K.</div>
+          <div class="team-role" data-en="Head of Primary" data-fr="Responsable du Primaire" data-ar="رئيسة الابتدائي">Head of Primary</div>
+          <div class="team-bio" data-en="Specialist in early childhood literacy and bilingual education." data-fr="Spécialiste en littératie de la petite enfance et éducation bilingue." data-ar="متخصصة في محو أمية الطفولة المبكرة والتعليم الثنائي.">Specialist in early childhood literacy and bilingual education.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <svg viewBox="0 0 24 24"><path d="M20 21 V19 A4 4 0 0 0 16 15 H8 A4 4 0 0 0 4 19 V21"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="team-info">
+          <div class="team-name" data-en="Mr. Karim D." data-fr="M. Karim D." data-ar="الأستاذ كريم د.">Mr. Karim D.</div>
+          <div class="team-role" data-en="Head of Sciences" data-fr="Responsable des Sciences" data-ar="رئيس قسم العلوم">Head of Sciences</div>
+          <div class="team-bio" data-en="Former university researcher. Passionate about making science accessible." data-fr="Ancien chercheur universitaire. Passionné par l'accessibilité des sciences." data-ar="باحث جامعي سابق. يشغف بجعل العلوم متاحة للجميع.">Former university researcher. Passionate about making science accessible.</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="team-photo">
+          <svg viewBox="0 0 24 24"><path d="M20 21 V19 A4 4 0 0 0 16 15 H8 A4 4 0 0 0 4 19 V21"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="team-info">
+          <div class="team-name" data-en="Ms. Lina M." data-fr="Mme Lina M." data-ar="الأستاذة لينا م.">Ms. Lina M.</div>
+          <div class="team-role" data-en="English Coordinator" data-fr="Coordinatrice d'anglais" data-ar="منسقة اللغة الإنجليزية">English Coordinator</div>
+          <div class="team-bio" data-en="Cambridge-certified. 10 years teaching IELTS and academic English." data-fr="Certifiée Cambridge. 10 ans d'enseignement de l'IELTS et de l'anglais académique." data-ar="حاصلة على شهادة كامبريدج. 10 سنوات في تدريس الآيلتس والإنجليزية الأكاديمية.">Cambridge-certified. 10 years teaching IELTS and academic English.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- School Life -->
+<section id="life">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="School Life" data-fr="Vie scolaire" data-ar="الحياة المدرسية">School Life</p>
+    <h2 class="section-title" data-en="More than classrooms" data-fr="Plus que des salles de classe" data-ar="أكثر من مجرد أقسام">More than classrooms</h2>
+    <p class="section-lead" data-en="Science labs, a library, sports fields and art studios — spaces where students grow beyond the textbook." data-fr="Laboratoires scientifiques, bibliothèque, terrains de sport et ateliers d'art — des espaces où l'élève grandit au-delà du manuel scolaire." data-ar="مخابر علمية، مكتبة، ملاعب رياضية وورشات فنية — فضاءات ينمو فيها التلميذ خارج إطار الكتاب المدرسي.">Science labs, a library, sports fields and art studios — spaces where students grow beyond the textbook.</p>
+
+    <div class="life-grid">
+      <div class="life-tile">
+        <svg viewBox="0 0 24 24"><path d="M9 3 V10 L5 19 A2 2 0 0 0 7 22 H17 A2 2 0 0 0 19 19 L15 10 V3"/><path d="M9 3 H15"/></svg>
+        <span data-en="Science Labs" data-fr="Laboratoires scientifiques" data-ar="المخابر العلمية">Science Labs</span>
+      </div>
+      <div class="life-tile">
+        <svg viewBox="0 0 24 24"><path d="M4 19 V6 A2 2 0 0 1 6 4 H12 V19"/><path d="M12 19 V4 H18 A2 2 0 0 1 20 6 V19"/></svg>
+        <span data-en="Library" data-fr="Bibliothèque" data-ar="المكتبة">Library</span>
+      </div>
+      <div class="life-tile">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12 H21 M12 3 C15 6 15 18 12 21 C9 18 9 6 12 3 Z"/></svg>
+        <span data-en="Sports" data-fr="Sport" data-ar="الرياضة">Sports</span>
+      </div>
+      <div class="life-tile">
+        <svg viewBox="0 0 24 24"><path d="M12 3 C7 3 4 6 4 10 C4 13 6 14 8 14 C8 16 9 18 12 18 C15 18 16 16 16 14 C18 14 20 13 20 10 C20 6 17 3 12 3 Z"/></svg>
+        <span data-en="Art Studio" data-fr="Atelier d'art" data-ar="ورشة الفنون">Art Studio</span>
+      </div>
+      <div class="life-tile">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21 H16 M12 17 V21"/></svg>
+        <span data-en="Computer &amp; Coding Room" data-fr="Salle informatique et programmation" data-ar="قاعة الإعلام الآلي والبرمجة">Computer &amp; Coding Room</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Testimonials" data-fr="Témoignages" data-ar="آراء">Testimonials</p>
+    <h2 class="section-title" data-en="What our community says" data-fr="Ce que dit notre communauté" data-ar="ماذا يقول مجتمعنا المدرسي">What our community says</h2>
+
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="quote-mark">"</div>
+        <p data-en="My daughter's confidence and love for science both grew here. The teachers truly follow each child's progress." data-fr="La confiance de ma fille et son amour des sciences ont grandi ici. Les enseignants suivent vraiment les progrès de chaque enfant." data-ar="نمت ثقة ابنتي بنفسها وحبها للعلوم هنا. الأساتذة يتابعون تقدم كل تلميذ فعلاً.">My daughter's confidence and love for science both grew here. The teachers truly follow each child's progress.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">S</div>
+          <div>
+            <div class="testi-name" data-en="Samira B." data-fr="Samira B." data-ar="سميرة ب.">Samira B.</div>
+            <div class="testi-role" data-en="Parent" data-fr="Parent" data-ar="ولية أمر">Parent</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="quote-mark">"</div>
+        <p data-en="Small classes made a real difference — my son finally got the one-on-one attention he needed in math." data-fr="Les petits effectifs ont fait une vraie différence — mon fils a enfin reçu le suivi individuel dont il avait besoin en mathématiques." data-ar="الأقسام الصغيرة صنعت فرقًا حقيقيًا، ابني حصل أخيرًا على المتابعة الفردية التي يحتاجها في الرياضيات.">Small classes made a real difference — my son finally got the one-on-one attention he needed in math.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">K</div>
+          <div>
+            <div class="testi-name" data-en="Karim D." data-fr="Karim D." data-ar="كريم د.">Karim D.</div>
+            <div class="testi-role" data-en="Parent" data-fr="Parent" data-ar="ولي أمر">Parent</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="quote-mark">"</div>
+        <p data-en="The coding workshop was the highlight of my year. I built my first small app before finishing middle school." data-fr="L'atelier de programmation a été le moment fort de mon année. J'ai créé ma première petite application avant même de terminer le collège." data-ar="ورشة البرمجة كانت أجمل ما عشته هذه السنة. بنيت أول تطبيق صغير لي قبل حتى إنهاء المتوسط.">The coding workshop was the highlight of my year. I built my first small app before finishing middle school.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">Y</div>
+          <div>
+            <div class="testi-name" data-en="Yasmine T." data-fr="Yasmine T." data-ar="ياسمين ت.">Yasmine T.</div>
+            <div class="testi-role" data-en="Student, Grade 9" data-fr="Élève, 4ᵉ année moyenne" data-ar="تلميذة، السنة الرابعة متوسط">Student, Grade 9</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Events -->
+<section id="events">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="News &amp; Events" data-fr="Actualités &amp; Événements" data-ar="الأخبار والفعاليات">News &amp; Events</p>
+    <h2 class="section-title" data-en="What's happening at Elmia" data-fr="Ce qui se passe à Elmia" data-ar="ما يحدث في العلمية">What's happening at Elmia</h2>
+    <p class="section-lead" data-en="Open days, competitions, and celebrations. Stay connected with school life." data-fr="Journées portes ouvertes, compétitions et célébrations. Restez connectés à la vie de l'école." data-ar="أيام مفتوحة، مسابقات واحتفالات. ابقوا على تواصل مع الحياة المدرسية.">Open days, competitions, and celebrations. Stay connected with school life.</p>
+
+    <div class="events-grid">
+      <div class="event-card">
+        <div class="event-date">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2 V6 M8 2 V6 M3 10 H21"/></svg>
+          <span>15 Sep 2025</span>
+        </div>
+        <div class="event-body">
+          <div class="event-title" data-en="Open Day &amp; Campus Tour" data-fr="Journée Portes Ouvertes" data-ar="اليوم المفتوح وجولة في المدرسة">Open Day &amp; Campus Tour</div>
+          <div class="event-desc" data-en="Meet teachers, visit classrooms and labs, and learn about our admissions process." data-fr="Rencontrez les enseignants, visitez les salles et les laboratoires, et découvrez notre processus d'admission." data-ar="قابلوا الأساتذة، زوروا الأقسام والمخابر، وتعرفوا على عملية التسجيل لدينا.">Meet teachers, visit classrooms and labs, and learn about our admissions process.</div>
+          <div class="event-meta">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15.5 14"/></svg>
+            <span data-en="09:00 – 14:00" data-fr="09h00 – 14h00" data-ar="09:00 – 14:00">09:00 – 14:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-date">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2 V6 M8 2 V6 M3 10 H21"/></svg>
+          <span>22 Oct 2025</span>
+        </div>
+        <div class="event-body">
+          <div class="event-title" data-en="Science Fair 2025" data-fr="Salon des Sciences 2025" data-ar="معرض العلوم 2025">Science Fair 2025</div>
+          <div class="event-desc" data-en="Students showcase experiments in physics, biology, and robotics. Open to all parents." data-fr="Les élèves présentent des expériences en physique, biologie et robotique. Ouvert à tous les parents." data-ar="يستعرض التلاميذ تجارب في الفيزياء والأحياء والروبوتيك. مفتوح لجميع أولياء الأمور.">Students showcase experiments in physics, biology, and robotics. Open to all parents.</div>
+          <div class="event-meta">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15.5 14"/></svg>
+            <span data-en="10:00 – 16:00" data-fr="10h00 – 16h00" data-ar="10:00 – 16:00">10:00 – 16:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-date">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2 V6 M8 2 V6 M3 10 H21"/></svg>
+          <span>1 Dec 2025</span>
+        </div>
+        <div class="event-body">
+          <div class="event-title" data-en="Early Registration Deadline" data-fr="Date Limite d'Inscription" data-ar="الموعد النهائي للتسجيل المبكر">Early Registration Deadline</div>
+          <div class="event-desc" data-en="Register before December 1st to secure your place and benefit from early-bird fees." data-fr="Inscrivez-vous avant le 1er décembre pour garantir votre place et bénéficier des tarifs préférentiels." data-ar="سجّلوا قبل 1 ديسمبر لتضمنوا مقاعدكم والاستفادة من رسوم التسجيل المبكر.">Register before December 1st to secure your place and benefit from early-bird fees.</div>
+          <div class="event-meta">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15.5 14"/></svg>
+            <span data-en="All day" data-fr="Toute la journée" data-ar="طوال اليوم">All day</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fees -->
+<section id="fees" style="background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Fees &amp; Tuition" data-fr="Frais &amp; Scolarité" data-ar="الرسوم والأقساط">Fees &amp; Tuition</p>
+    <h2 class="section-title" data-en="Transparent pricing" data-fr="Des tarifs transparents" data-ar="أسعار شفافة">Transparent pricing</h2>
+    <p class="section-lead" data-en="No hidden costs. We believe families deserve clarity when planning their child's education." data-fr="Aucun coût caché. Nous croyons que les familles méritent la clarté pour planifier l'éducation de leur enfant." data-ar="لا توجد تكاليف خفية. نؤمن أن الأسر تستحق الشفافية عند التخطيط لتعليم أبنائها.">No hidden costs. We believe families deserve clarity when planning their child's education.</p>
+
+    <table class="fees-table">
+      <thead>
+        <tr>
+          <th data-en="Program" data-fr="Programme" data-ar="المرحلة">Program</th>
+          <th data-en="Annual Tuition" data-fr="Scolarité Annuelle" data-ar="الرسوم السنوية">Annual Tuition</th>
+          <th data-en="Registration Fee" data-fr="Frais d'inscription" data-ar="رسوم التسجيل">Registration Fee</th>
+          <th data-en="Books &amp; Materials" data-fr="Manuels &amp; Matériel" data-ar="الكتب والمواد">Books &amp; Materials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong data-en="Primary School" data-fr="École Primaire" data-ar="التعليم الابتدائي">Primary School</strong></td>
+          <td class="fee">45,000 DZD</td>
+          <td class="fee">5,000 DZD</td>
+          <td class="fee">3,500 DZD</td>
+        </tr>
+        <tr>
+          <td><strong data-en="Middle School" data-fr="Collège" data-ar="التعليم المتوسط">Middle School</strong></td>
+          <td class="fee">52,000 DZD</td>
+          <td class="fee">5,000 DZD</td>
+          <td class="fee">4,500 DZD</td>
+        </tr>
+        <tr>
+          <td><strong data-en="Secondary School" data-fr="Lycée" data-ar="التعليم الثانوي">Secondary School</strong></td>
+          <td class="fee">58,000 DZD</td>
+          <td class="fee">5,000 DZD</td>
+          <td class="fee">5,500 DZD</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="fees-note" data-en="* Sibling discount: 10% for the second child, 15% for the third. Payment plans available upon request." data-fr="* Réduction fratrie : 10% pour le deuxième enfant, 15% pour le troisième. Possibilité de paiement échelonné sur demande." data-ar="* خصم الأخوة: 10% للطفل الثاني، 15% للثالث. خطط دفع متاحة عند الطلب.">* Sibling discount: 10% for the second child, 15% for the third. Payment plans available upon request.</p>
+    <div style="margin-top:24px;">
+      <a href="#contact" class="btn btn-primary" data-en="Request a Payment Plan" data-fr="Demander un plan de paiement" data-ar="اطلب خطة دفع">Request a Payment Plan</a>
+    </div>
+  </div>
+</section>
+
+<!-- Admissions -->
+<section id="admissions" style="background:var(--navy); color:#fff;">
+  <div class="container reveal">
+    <p class="eyebrow" style="color:#7ee8dc;" data-en="Admissions" data-fr="Admissions" data-ar="التسجيل">Admissions</p>
+    <h2 class="section-title" style="color:#fff" data-en="Four simple steps to join Elmia" data-fr="Quatre étapes simples pour rejoindre Elmia" data-ar="أربع خطوات بسيطة للانضمام إلى العلمية">Four simple steps to join Elmia</h2>
+    <p class="section-lead" style="color:rgba(255,255,255,0.65)" data-en="Enrollment for the next school year is open. Here's how the process works." data-fr="Les inscriptions pour la prochaine année scolaire sont ouvertes. Voici comment se déroule le processus." data-ar="التسجيل للموسم الدراسي القادم مفتوح. إليك كيف تسير العملية.">Enrollment for the next school year is open. Here's how the process works.</p>
+
+    <div class="timeline">
+      <div class="tl-step">
+        <div class="tl-num">1</div>
+        <h3 style="color:#fff" data-en="Submit Application" data-fr="Déposer le dossier" data-ar="تقديم الملف">Submit Application</h3>
+        <p style="color:rgba(255,255,255,0.6)" data-en="Fill the form below or visit our office with your child's documents." data-fr="Remplissez le formulaire ci-dessous ou rendez-vous à notre bureau avec les documents de votre enfant." data-ar="املأ الاستمارة أدناه أو قم بزيارة مكتبنا مع وثائق طفلك.">Fill the form below or visit our office with your child's documents.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-num">2</div>
+        <h3 style="color:#fff" data-en="Placement Assessment" data-fr="Test de niveau" data-ar="اختبار تحديد المستوى">Placement Assessment</h3>
+        <p style="color:rgba(255,255,255,0.6)" data-en="A short, friendly assessment to understand your child's level." data-fr="Une évaluation courte et conviviale pour connaître le niveau de votre enfant." data-ar="اختبار قصير وودّي لمعرفة مستوى طفلك.">A short, friendly assessment to understand your child's level.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-num">3</div>
+        <h3 style="color:#fff" data-en="Family Interview" data-fr="Entretien avec la famille" data-ar="مقابلة مع الأسرة">Family Interview</h3>
+        <p style="color:rgba(255,255,255,0.6)" data-en="A meeting with our team to answer your questions." data-fr="Une rencontre avec notre équipe pour répondre à vos questions." data-ar="لقاء مع طاقمنا التربوي للإجابة عن استفساراتكم.">A meeting with our team to answer your questions.</p>
+      </div>
+      <div class="tl-step">
+        <div class="tl-num">4</div>
+        <h3 style="color:#fff" data-en="Enrollment Confirmed" data-fr="Inscription confirmée" data-ar="تأكيد التسجيل">Enrollment Confirmed</h3>
+        <p style="color:rgba(255,255,255,0.6)" data-en="Welcome to Elmia — we'll prepare your child's class placement." data-fr="Bienvenue chez Elmia — nous préparerons la classe de votre enfant." data-ar="مرحبًا بكم في العلمية — سنجهز قسم طفلكم.">Welcome to Elmia — we'll prepare your child's class placement.</p>
+      </div>
+    </div>
+
+    <div id="prospectus" style="margin-top:60px; text-align:center;">
+      <h3 style="font-size:22px; margin-bottom:12px; color:#fff;" data-en="Download our school prospectus" data-fr="Téléchargez notre brochure" data-ar="حمّلوا بروشور مدرستنا">Download our school prospectus</h3>
+      <p style="color:rgba(255,255,255,0.65); max-width:500px; margin:0 auto 20px; font-size:15px;" data-en="Get the full overview of programs, fees, and school policies in one document." data-fr="Obtenez l'aperçu complet des programmes, des tarifs et des règlements de l'école en un seul document." data-ar="احصلوا على نظرة شاملة عن البرامج والرسوم والأنظمة المدرسية في وثيقة واحدة.">Get the full overview of programs, fees, and school policies in one document.</p>
+      <a href="/assets/elmia-prospectus-2025.pdf" class="btn btn-amber" download data-en="Download PDF (3 MB)" data-fr="Télécharger PDF (3 Mo)" data-ar="تحميل PDF (3 ميجا)">Download PDF (3 MB)</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container reveal">
+    <p class="eyebrow" data-en="Contact" data-fr="Contact" data-ar="اتصل بنا">Contact</p>
+    <h2 class="section-title" data-en="Let's talk about your child's future" data-fr="Parlons de l'avenir de votre enfant" data-ar="لنتحدث عن مستقبل طفلكم">Let's talk about your child's future</h2>
+    <p class="section-lead" data-en="Reach out with any question about programs, tuition or a school visit." data-fr="Contactez-nous pour toute question sur les programmes, les frais de scolarité ou une visite de l'école." data-ar="تواصلوا معنا لأي سؤال حول البرامج أو الرسوم أو زيارة المدرسة.">Reach out with any question about programs, tuition or a school visit.</p>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <div class="info-row">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 21 C8 17 5 13.5 5 9.5 A7 7 0 0 1 19 9.5 C19 13.5 16 17 12 21 Z"/><circle cx="12" cy="9.5" r="2.4"/></svg></div>
+          <div><div class="lbl" data-en="Address" data-fr="Adresse" data-ar="العنوان">Address</div><div class="val" data-en="02 Frih Ibrahim Street, Sananas, Oran" data-fr="Rue 02 Frih Ibrahim, Sananas, Oran" data-ar="شارع 02 فريح إبراهيم ساناناس,وهران">02 Frih Ibrahim Street, Sananas, Oran</div></div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M5 4 H9 L11 9 L8.5 10.5 A11 11 0 0 0 13.5 15.5 L15 13 L20 15 V19 A2 2 0 0 1 18 21 C10 21 3 14 3 6 A2 2 0 0 1 5 4 Z"/></svg></div>
+          <div><div class="lbl" data-en="Phone" data-fr="Téléphone" data-ar="الهاتف">Phone</div><div class="val" dir="ltr" style="unicode-bidi:isolate">+213 41 00 00 00</div></div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6 L12 13 L21 6"/></svg></div>
+          <div><div class="lbl" data-en="Email" data-fr="E-mail" data-ar="البريد الإلكتروني">Email</div><div class="val">contact@elmia-oran.dz</div></div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15.5 14"/></svg></div>
+          <div><div class="lbl" data-en="Office Hours" data-fr="Heures d'accueil" data-ar="أوقات الاستقبال">Office Hours</div><div class="val" data-en="Sun – Thu, 8:00 – 16:00" data-fr="Dim – Jeu, 8h00 – 16h00" data-ar="الأحد – الخميس، 8:00 – 16:00">Sun – Thu, 8:00 – 16:00</div></div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://facebook.com/elmiaoran" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2 H15 A3 3 0 0 0 12 5 V8 H9 V12 H12 V22 H16 V12 H19 L20 8 H16 V5 A1 1 0 0 1 17 4 H20 V2 Z"/></svg>
+          </a>
+          <a href="https://instagram.com/elmiaoran" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="18" cy="6" r="1.5"/></svg>
+          </a>
+          <a href="https://youtube.com/@elmiaoran" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M22.54 6.42 A2.78 2.78 0 0 0 20.7 4.6 C18.9 4 12 4 12 4 C12 4 5.1 4 3.3 4.6 A2.78 2.78 0 0 0 1.46 6.42 C1 8.2 1 12 1 12 C1 12 1 15.8 1.46 17.58 A2.78 2.78 0 0 0 3.3 19.4 C5.1 20 12 20 12 20 C12 20 18.9 20 20.7 19.4 A2.78 2.78 0 0 0 22.54 17.58 C23 15.8 23 12 23 12 C23 12 23 8.2 22.54 6.42 Z"/><path d="M9.75 15.02 L15.5 12 L9.75 8.98 V15.02 Z"/></svg>
+          </a>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.7!2d-0.6411!3d35.7045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQyJzE2LjIiTiAwwrAzOCczMC4wIlc!5e0!3m2!1sen!2sdz!4v1690000000000!5m2!1sen!2sdz"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Elmia Oran School Location">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <!-- INSTRUCTION: Replace action URL with your Formspree endpoint (e.g. https://formspree.io/f/YOUR_ID) or Netlify Forms -->
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="New inquiry from Elmia Oran website">
+        <div class="form-row">
+          <div class="form-field">
+            <label data-en="Parent Name" data-fr="Nom du parent" data-ar="اسم ولي الأمر">Parent Name</label>
+            <input type="text" name="parent_name" required>
+          </div>
+          <div class="form-field">
+            <label data-en="Phone" data-fr="Téléphone" data-ar="رقم الهاتف">Phone</label>
+            <input type="tel" name="phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field full">
+            <label data-en="Email" data-fr="E-mail" data-ar="البريد الإلكتروني">Email</label>
+            <input type="email" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label data-en="Child's Age / Grade" data-fr="Âge / Classe de l'enfant" data-ar="عمر / مستوى الطفل">Child's Age / Grade</label>
+            <input type="text" name="child_grade" placeholder="e.g. 8 years / CE2">
+          </div>
+          <div class="form-field">
+            <label data-en="Program of Interest" data-fr="Programme souhaité" data-ar="المرحلة المطلوبة">Program of Interest</label>
+            <select name="program">
+              <option value="" data-en="Select..." data-fr="Choisir..." data-ar="اختر...">Select...</option>
+              <option value="primary" data-en="Primary School" data-fr="École Primaire" data-ar="التعليم الابتدائي">Primary School</option>
+              <option value="middle" data-en="Middle School" data-fr="Collège" data-ar="التعليم المتوسط">Middle School</option>
+              <option value="secondary" data-en="Secondary School" data-fr="Lycée" data-ar="التعليم الثانوي">Secondary School</option>
+              <option value="other" data-en="Other inquiry" data-fr="Autre demande" data-ar="استفسار آخر">Other inquiry</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field full">
+            <label data-en="Message" data-fr="Message" data-ar="الرسالة">Message</label>
+            <textarea name="message" rows="4" data-en-ph="Tell us about your child's age and program of interest" data-ar-ph="أخبرونا عن عمر طفلكم والمرحلة التي تهمكم" data-fr-ph="Parlez-nous de l'âge de votre enfant et du programme qui vous intéresse"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-en="Send Message" data-fr="Envoyer le message" data-ar="إرسال الرسالة">Send Message</button>
+        <div class="form-msg" id="formMsg" data-en="Thank you — our team will contact you within 48 hours." data-fr="Merci — notre équipe vous contactera sous 48 heures." data-ar="شكرًا لكم — سيتصل بكم فريقنا خلال 48 ساعة.">Thank you — our team will contact you within 48 hours.</div>
+        <div class="form-msg error" id="formError" data-en="Something went wrong. Please try again or contact us directly by phone." data-fr="Une erreur s'est produite. Veuillez réessayer ou nous contacter directement par téléphone." data-ar="حدث خطأ ما. يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة بالهاتف.">Something went wrong. Please try again or contact us directly by phone.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo-text" data-en="Elmia <span>Oran</span>" data-fr="Elmia <span>Oran</span>" data-ar="العلمية <span>وهران</span>">Elmia <span>Oran</span></div>
+        <p data-en="A bilingual school in Oran building excellence in science, character and innovation since 2007." data-fr="Une école bilingue à Oran qui construit l'excellence en sciences, en valeurs et en innovation depuis 2007." data-ar="مدرسة ثنائية اللغة في وهران تبني التميز في العلم والأخلاق والابتكار منذ سنة 2007.">A bilingual school in Oran building excellence in science, character and innovation since 2007.</p>
+        <div class="foot-social">
+          <a href="https://facebook.com/elmiaoran" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2 H15 A3 3 0 0 0 12 5 V8 H9 V12 H12 V22 H16 V12 H19 L20 8 H16 V5 A1 1 0 0 1 17 4 H20 V2 Z"/></svg>
+          </a>
+          <a href="https://instagram.com/elmiaoran" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="18" cy="6" r="1.5"/></svg>
+          </a>
+          <a href="https://youtube.com/@elmiaoran" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M22.54 6.42 A2.78 2.78 0 0 0 20.7 4.6 C18.9 4 12 4 12 4 C12 4 5.1 4 3.3 4.6 A2.78 2.78 0 0 0 1.46 6.42 C1 8.2 1 12 1 12 C1 12 1 15.8 1.46 17.58 A2.78 2.78 0 0 0 3.3 19.4 C5.1 20 12 20 12 20 C12 20 18.9 20 20.7 19.4 A2.78 2.78 0 0 0 22.54 17.58 C23 15.8 23 12 23 12 C23 12 23 8.2 22.54 6.42 Z"/><path d="M9.75 15.02 L15.5 12 L9.75 8.98 V15.02 Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-en="School" data-fr="École" data-ar="المدرسة">School</h4>
+        <a href="#about" data-en="About" data-fr="À propos" data-ar="من نحن">About</a>
+        <a href="#programs" data-en="Programs" data-fr="Programmes" data-ar="المراحل الدراسية">Programs</a>
+        <a href="#team" data-en="Our Team" data-fr="Notre Équipe" data-ar="طاقمنا">Our Team</a>
+        <a href="#life" data-en="School Life" data-fr="Vie scolaire" data-ar="الحياة المدرسية">School Life</a>
+      </div>
+      <div class="foot-col">
+        <h4 data-en="Community" data-fr="Communauté" data-ar="المجتمع">Community</h4>
+        <a href="#admissions" data-en="Admissions" data-fr="Admissions" data-ar="التسجيل">Admissions</a>
+        <a href="#fees" data-en="Fees" data-fr="Tarifs" data-ar="الرسوم">Fees</a>
+        <a href="#events" data-en="Events" data-fr="Événements" data-ar="الفعاليات">Events</a>
+        <a href="#contact" data-en="Contact" data-fr="Contact" data-ar="اتصل بنا">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4 data-en="Contact" data-fr="Contact" data-ar="تواصل">Contact</h4>
+        <a href="#" data-en="02 Frih Ibrahim Street, Sananas, Oran" data-fr="Rue 02 Frih Ibrahim, Sananas, Oran" data-ar="شارع 02 فريح إبراهيم ساناناس,وهران">02 Frih Ibrahim Street, Sananas, Oran</a>
+        <a href="tel:+21341000000" dir="ltr" style="unicode-bidi:isolate; display:block;">+213 41 00 00 00</a>
+        <a href="mailto:contact@elmia-oran.dz">contact@elmia-oran.dz</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span id="yearSpan"></span>
+      <span data-en="Designed for Elmia Oran School" data-fr="Conçu pour l'école Elmia Oran" data-ar="صُمم لمدرسة العلمية وهران">Designed for Elmia Oran School</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/21341000000?text=Hello%20Elmia%20Oran%2C%20I%20would%20like%20to%20learn%20more%20about%20admissions." class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- Back to Top -->
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><path d="M6 14 L12 8 L18 14"/></svg>
+</button>
+
+<script>
+  // Preloader
+  window.addEventListener('load', function() {
+    const preloader = document.getElementById('preloader');
+    setTimeout(function() {
+      preloader.classList.add('hidden');
+    }, 1800);
+  });
+
+  // Footer year
+  document.getElementById('yearSpan').textContent = '© ' + new Date().getFullYear() + ' Elmia Oran';
+
+  // Mobile menu
+  const burger = document.getElementById('burgerBtn');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => navLinks.classList.toggle('mobile-open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('mobile-open')));
+
+  // Language toggle
+  const langToggle = document.getElementById('langToggle');
+  function setLang(lang){
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const text = el.getAttribute('data-' + lang);
+      if(text !== null) el.innerHTML = text;
+    });
+    document.querySelectorAll('[data-en-ph]').forEach(el => {
+      const ph = el.getAttribute('data-' + lang + '-ph');
+      if(ph !== null) el.setAttribute('placeholder', ph);
+    });
+    // Update select options text
+    document.querySelectorAll('select option[data-en]').forEach(opt => {
+      const text = opt.getAttribute('data-' + lang);
+      if(text !== null) opt.textContent = text;
+    });
+    langToggle.querySelectorAll('span').forEach(s => s.classList.toggle('active', s.dataset.lang === lang));
+  }
+  langToggle.addEventListener('click', (e) => {
+    const chosen = e.target.closest('span');
+    if(!chosen) return;
+    setLang(chosen.dataset.lang);
+  });
+  setLang('en');
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+
+  // Animated counters
+  const counters = document.querySelectorAll('[data-count]');
+  const cio = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const el = entry.target;
+        const target = parseInt(el.getAttribute('data-count'), 10);
+        const duration = 1400;
+        const start = performance.now();
+        function tick(now){
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.round(eased * target);
+          if(progress < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        cio.unobserve(el);
+      }
+    });
+  }, { threshold: 0.4 });
+  counters.forEach(el => cio.observe(el));
+
+  // Radial progress ring
+  const ring = document.querySelector('.ring-prog');
+  if(ring){
+    const rio = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          const pct = parseInt(ring.getAttribute('data-ring'), 10);
+          const circumference = 138.2;
+          ring.style.strokeDashoffset = circumference - (circumference * pct / 100);
+          rio.unobserve(ring);
+        }
+      });
+    }, { threshold: 0.4 });
+    rio.observe(ring);
+  }
+
+  // Active nav link on scroll
+  const navAnchors = document.querySelectorAll('nav.links a[href^="#"]');
+  const navSections = Array.from(navAnchors).map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+  const navIo = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const id = '#' + entry.target.id;
+      const link = Array.from(navAnchors).find(a => a.getAttribute('href') === id);
+      if(!link) return;
+      if(entry.isIntersecting) navAnchors.forEach(a => a.classList.toggle('active', a === link));
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+  navSections.forEach(sec => navIo.observe(sec));
+
+  // Back to top
+  const toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', () => {
+    toTop.classList.toggle('show', window.scrollY > 600);
+  });
+  toTop.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+
+  // Contact form handling (Formspree or fallback)
+  const form = document.getElementById('contactForm');
+  const formMsg = document.getElementById('formMsg');
+  const formError = document.getElementById('formError');
+
+  form.addEventListener('submit', async (e) => {
+    const action = form.getAttribute('action');
+    // If action is default placeholder, show demo success
+    if(action.includes('YOUR_FORM_ID')){
+      e.preventDefault();
+      formMsg.classList.add('show');
+      formError.classList.remove('show');
+      form.reset();
+      setTimeout(() => formMsg.classList.remove('show'), 5000);
+      return;
+    }
+    // Otherwise try Formspree / Netlify
+    e.preventDefault();
+    try{
+      const response = await fetch(action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if(response.ok){
+        formMsg.classList.add('show');
+        formError.classList.remove('show');
+        form.reset();
+      } else {
+        throw new Error('Server error');
+      }
+    } catch(err){
+      formError.classList.add('show');
+      formMsg.classList.remove('show');
+    }
+  });
+</script>
+</body>
+</html>
